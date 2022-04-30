@@ -332,3 +332,53 @@ form .submit:hover{
   left: 0px;
 
 }
+/* gallery */
+
+.gal{
+  position: relative;
+  text-align: center;
+  background-color: #a0c8f5ef;
+}
+.gallery_image{
+  width: 60%;
+  height: min-content;
+  margin-top: 40px;
+  border-radius: 4%;
+
+}
+
+/* Company */
+.team{
+  position: relative;
+  text-align: center;
+  background-color: #2b435eef;
+  height: 430px;
+}
+
+.team_photo1{
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 4%;
+  filter: drop-shadow(0 0 0.75rem crimson);
+}
+.team_photo2{
+  position: absolute;
+  top: 60px;
+  right: 240px;
+  width: 200px;
+  height: 200px;
+  border-radius: 4%;
+  filter: drop-shadow(0 0 0.75rem crimson);
+}
+.team_photo3{
+  position: absolute;
+  top: 60px;
+  right: 480px;
+  width: 200px;
+  height: 200px;
+  border-radius: 4%;
+  filter: drop-shadow(0 0 0.75rem crimson);
+}
